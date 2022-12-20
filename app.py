@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import os
 import pyodbc
 import time
@@ -16,6 +15,8 @@ import chart_studio.plotly as py
 import plotly.graph_objects as go
 import cufflinks as cf
 import pybase64
+%matplotlib inline
+import matplotlib.pyplot as plt
 
 from fbprophet import Prophet
 from fbprophet.plot import  plot_plotly, plot_components_plotly
