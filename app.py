@@ -15,7 +15,6 @@ import chart_studio.plotly as py
 import plotly.graph_objects as go
 import cufflinks as cf
 import pybase64
-%matplotlib inline
 import matplotlib.pyplot as plt
 
 from fbprophet import Prophet
